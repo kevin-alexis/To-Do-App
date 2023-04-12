@@ -1,0 +1,38 @@
+.ToDoItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: white;
+    background: rgb(37, 37, 37);
+    text-align: start;
+    margin-top: 24px;
+    border-radius: 4px;
+}
+
+.ToDoItem--active{
+    background: rgba(68, 68, 68, 0.192);
+    color: rgba(255, 255, 255, 0.089);
+}
+
+.Icon-p--complete{
+    text-decoration: line-through;
+}
+
+.Icon{ 
+    font-weight: 800;
+    user-select: none;
+    cursor: pointer;
+}
+
+
+.Icon-check--active{
+    color: rgb(77, 165, 42);
+}
+
+.Icon-delete:hover{
+    
+    color: red;
+}

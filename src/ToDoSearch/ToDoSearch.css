@@ -1,0 +1,13 @@
+.ToDoSearch{
+    width: 100%;
+    display: inline-block;
+    border-radius: 4px;
+    color: white;
+    background: rgb(37, 37, 37);
+    border: none;
+    height: 32px;
+    font-size: larger;
+    padding: 0 10px;
+    box-sizing: border-box;
+    
+}
