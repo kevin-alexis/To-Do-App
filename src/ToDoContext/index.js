@@ -14,7 +14,7 @@ function ToDoProvider(props) {
         const [searchValue, setSearchValue] = React.useState("");
         const [openModal, setOpenModal] = React.useState(false);
         
-        const completedToDoS = ToDoS.filter(ToDo => ToDo.completed).length;
+        const completedToDoS = ToDoS.filter(ToDo => !!ToDo.completed).length;
         const totalToDoS = ToDoS.length;
         
         let searchedToDoS = [];
