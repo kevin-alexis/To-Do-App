@@ -33,7 +33,7 @@ function useLocalStorage(itemName, initialValue) {
         }
     };
         return {
-        item,
+        item: item || [],
         saveItem,
         loading,
         error
